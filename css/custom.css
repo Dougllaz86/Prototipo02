@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+.hero, section {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+}
+
+.hero h1, blockquote {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+}
+
+.legenda h6 {
+  color: #74489D;
+}
+
+.hero .legenda {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.hero .legenda h6, blockquote strong {
+  color: white;
+}
+
+.card h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.is-primary {
+  background-color: #74489D !important;
+}
+
+.table tr.is-selected {
+  background-color: #74489D !important;
+  color: #fff;
+}
+
+.notification.is-warning {
+  background-color: #ffdd576b;
+}
+
+.hero .notification.is-warning {
+  background-color: #74489D !important;
+  color: #fff;
+}
+
+.is-primary .columns div {
+  background-color: #74489de8;
+  color: #fff;
+  padding: 2em;
+}
+
+.notification.is-warning h3 {
+  width: fit-content;
+  background: #ff9400;
+  padding: 10px;
+  transform: rotate(-5deg);
+  margin-top: -35px;
+  color: white;
+}
+
+.mapa h3 {
+  width: fit-content;
+  background: #ff9400;
+  padding: 10px;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+  transform: rotate(0) !important;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  #cap1 {
+    background-attachment: fixed;
+  }
+}
