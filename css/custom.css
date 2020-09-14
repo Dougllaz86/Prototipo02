@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 .hero, section {
-  background-position: bottom;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll, fixed;
@@ -109,6 +109,15 @@ textarea {
   padding: 8px;
   margin: 15px 0 25px;
   background-color: white !important;
+}
+
+.content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h6 span {
+  word-break: break-all;
 }
 
 @media only screen and (min-width: 769px) {
